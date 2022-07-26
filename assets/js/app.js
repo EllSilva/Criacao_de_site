@@ -15,10 +15,7 @@ Vue.component('p-home', page_home)
 
 import page_sobre from './view/sobre/home.js'
 Vue.component('p-sobre', page_sobre)
-
-import page_portfolio from './view/portfolio/home.js'
-Vue.component('p-portfolio', page_portfolio)
-
+ 
 import page_servico from './view/servico/home.js'
 Vue.component('p-servico', page_servico)
 
@@ -33,8 +30,7 @@ Vue.use(Router)
 const routes = [
     { path: '/', component: { template: '<p-home></p-home>' } },
     { path: '/sobre', component: { template: '<p-sobre></p-sobre>' } },
-    { path: '/portfolio', component: { template: '<p-portfolio></p-portfolio>' } },
-    { path: '/servico', component: { template: '<p-servico></p-servico>' } },
+     { path: '/servico', component: { template: '<p-servico></p-servico>' } },
     { path: '/contacto', component: { template: '<p-contacto></p-contacto>' } },
     { path: '/blogs', component: { template: '<p-blogs></p-blogs>' } }
     
