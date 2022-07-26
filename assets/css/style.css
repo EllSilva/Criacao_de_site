@@ -854,9 +854,14 @@ element.style {
 
 
 
-.lista { 
+.borda-esq { 
   border-left: 1px solid #feb543;
 }
+
+.borda-direc { 
+  border-right: 1px solid #feb543;
+}
+
 
 .list-groupo {
   position: relative;
